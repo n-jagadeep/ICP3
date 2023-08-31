@@ -1,1 +1,11 @@
 # ICP3
+PROBLEM 1:
+
+This Python program defines a class called 'Employee' and a subclass 'FulltimeEmployee' to manage employee data.The 'Employee' class has a class variable 'numberOfEmployees' initialized to 0. This variable will keep track of the total number of employees created The 'Employee' class has a constructor ('__init__') that takes four parameters: 'name', 'family', 'salary', and 'department'. It initializes instance variables to store this employee's information and increments the 'numberOfEmployees' class variable by 1 each time a new employee is created.Then the function called 'averagesalary' that calculates the average salary of a list of employees. The 'FulltimeEmployee' inherits class 'Employee' but doesn't have any additional attributes or methods.I then create three employee objects ('employee1', 'employee2', and 'employee3') by taking input from the user for their name, family, salary, and department. The first two are instances of the 'Employee' class, and the third one is an instance of the 'FulltimeEmployee' class.I then print out the total number of employees and create a list to store all the employee details, I then use the 'avgSalary' variable to find the average salaries of the employees from the list and print it out.
+
+PROBLEM 2:
+
+Python program to use the NumPy library to perform operations on a randomly generated vector. First I import the NumPy library, then I Generate a random vector of 20 elements using NumPy's 'random.uniform' function, with values ranging between 1 and 20. This vector is stored in the variable 'randomVector',then I print the 'randomVector',after that I Reshape the 'randomVector' into a 4x5 matrix (a 2-dimensional array) using the 'reshape' method. This reshaped matrix is stored in the variable 'reshapedArray' and print it, then Using NumPy functions I identify the index of the maximum value in each row of 'reshapedArray'. I do this by first using 'numpy.argmax' along 'axis=1' to find the column index with the maximum value for each row, and then uses 'numpy.arange' to generate row indices, then i replace this max value to zero and print the modified array.
+
+ICP3 video link : https://drive.google.com/file/d/1fB9IUbPahYlMbKlSePa49sEZGt_hZIyA/view?usp=share_link
+
